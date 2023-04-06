@@ -3,3 +3,4 @@ venv
 .vscode
 asdf.*
 pokepastes_scraper.egg-info
+dist
