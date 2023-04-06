@@ -1,0 +1,200 @@
+{
+    "py/object": "pokepastes_scraper.PokepastesTeam",
+    "members": [
+        {
+            "py/object": "pokepastes_scraper.PokepastesMon",
+            "species": "Iron Hands",
+            "nickname": "Maradona",
+            "gender": null,
+            "item": "Assault Vest",
+            "ability": "Quark Drive",
+            "level": 50,
+            "shiny": true,
+            "happiness": null,
+            "pokeball": null,
+            "dynamax_level": null,
+            "gigantamax": null,
+            "tera_type": "Grass",
+            "evs": {
+                "py/object": "pokepastes_scraper.Stats",
+                "HP": 140,
+                "Atk": 76,
+                "Def": 4,
+                "SpA": 0,
+                "SpD": 252,
+                "Spe": 36
+            },
+            "nature": "Adamant",
+            "ivs": null,
+            "moveset": [
+                "Fake Out",
+                "Close Combat",
+                "Wild Charge",
+                "Volt Switch"
+            ]
+        },
+        {
+            "py/object": "pokepastes_scraper.PokepastesMon",
+            "species": "Amoonguss",
+            "nickname": "Shrom41Mor",
+            "gender": null,
+            "item": "Sitrus Berry",
+            "ability": "Regenerator",
+            "level": 50,
+            "shiny": null,
+            "happiness": null,
+            "pokeball": null,
+            "dynamax_level": null,
+            "gigantamax": null,
+            "tera_type": "Steel",
+            "evs": {
+                "py/object": "pokepastes_scraper.Stats",
+                "HP": 0,
+                "Atk": 0,
+                "Def": 0,
+                "SpA": 0,
+                "SpD": 0,
+                "Spe": 0
+            },
+            "nature": "Calm",
+            "ivs": null,
+            "moveset": [
+                "Spore",
+                "Rage Powder",
+                "Pollen Puff",
+                "Protect"
+            ]
+        },
+        {
+            "py/object": "pokepastes_scraper.PokepastesMon",
+            "species": "Pelipper",
+            "nickname": "Beaker",
+            "gender": null,
+            "item": "Focus Sash",
+            "ability": "Drizzle",
+            "level": 50,
+            "shiny": null,
+            "happiness": null,
+            "pokeball": null,
+            "dynamax_level": null,
+            "gigantamax": null,
+            "tera_type": "Flying",
+            "evs": {
+                "py/object": "pokepastes_scraper.Stats",
+                "HP": 0,
+                "Atk": 0,
+                "Def": 0,
+                "SpA": 0,
+                "SpD": 0,
+                "Spe": 0
+            },
+            "nature": "Modest",
+            "ivs": null,
+            "moveset": [
+                "Hurricane",
+                "Hydro Pump",
+                "Tailwind",
+                "Protect"
+            ]
+        },
+        {
+            "py/object": "pokepastes_scraper.PokepastesMon",
+            "species": "Palafin",
+            "nickname": "Torqoise",
+            "gender": null,
+            "item": "Mystic Water",
+            "ability": "Zero to Hero",
+            "level": 50,
+            "shiny": null,
+            "happiness": null,
+            "pokeball": null,
+            "dynamax_level": null,
+            "gigantamax": null,
+            "tera_type": "Water",
+            "evs": {
+                "py/object": "pokepastes_scraper.Stats",
+                "HP": 252,
+                "Atk": 252,
+                "Def": 4,
+                "SpA": 0,
+                "SpD": 0,
+                "Spe": 0
+            },
+            "nature": "Adamant",
+            "ivs": null,
+            "moveset": [
+                "Jet Punch",
+                "Wave Crash",
+                "Haze",
+                "Protect"
+            ]
+        },
+        {
+            "py/object": "pokepastes_scraper.PokepastesMon",
+            "species": "Baxcalibur",
+            "nickname": "BlockBuster",
+            "gender": null,
+            "item": "Dragon Fang",
+            "ability": "Thermal Exchange",
+            "level": 50,
+            "shiny": null,
+            "happiness": null,
+            "pokeball": null,
+            "dynamax_level": null,
+            "gigantamax": null,
+            "tera_type": "Poison",
+            "evs": {
+                "py/object": "pokepastes_scraper.Stats",
+                "HP": 84,
+                "Atk": 252,
+                "Def": 4,
+                "SpA": 0,
+                "SpD": 108,
+                "Spe": 60
+            },
+            "nature": "Adamant",
+            "ivs": null,
+            "moveset": [
+                "Glaive Rush",
+                "Ice Shard",
+                "Icicle Crash",
+                "Protect"
+            ]
+        },
+        {
+            "py/object": "pokepastes_scraper.PokepastesMon",
+            "species": "Dragonite",
+            "nickname": "ShiningArmor",
+            "gender": null,
+            "item": "Lum Berry",
+            "ability": "Multiscale",
+            "level": 50,
+            "shiny": null,
+            "happiness": null,
+            "pokeball": null,
+            "dynamax_level": null,
+            "gigantamax": null,
+            "tera_type": "Flying",
+            "evs": {
+                "py/object": "pokepastes_scraper.Stats",
+                "HP": 252,
+                "Atk": 204,
+                "Def": 20,
+                "SpA": 0,
+                "SpD": 4,
+                "Spe": 28
+            },
+            "nature": "Adamant",
+            "ivs": null,
+            "moveset": [
+                "Extreme Speed",
+                "Tera Blast",
+                "Ice Spinner",
+                "Protect"
+            ]
+        }
+    ],
+    "title": "Gavin Michaels' 2023 OCIC Champion Team, 11-3 Swiss Record, 282 Players, 14-3 Overall Record",
+    "author": "VGCPastes",
+    "desc": "Format: gen9vgc2023series2"
+}
