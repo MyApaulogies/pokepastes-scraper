@@ -67,40 +67,68 @@ class PokepastesMon:
         tags_iter = iter(tag.children)
         res = PokepastesMon('asdfasdf')
 
-        n = next(tags_iter)
-
-        if n.text.endswith('('):
-            # three cases:
-            # 1 Species (Gender) @
-            # 2 Nick (Species) (Gender) @
-            # 3 Nick (Species) @
-            species_or_nick = n.text[:-2]
-
+        firstline = ''
+        while True:
             n = next(tags_iter)
-            if n.text in 'FM':
-                # case 1
-                res.species = species_or_nick
-                res.gender = n.text
-                n = next(tags_iter)
-            else:
-                res.nickname = species_or_nick
-                res.species = n.text
-                n = next(tags_iter)
-                if n.text == ') (':
-                    n = next(tags_iter)
-                    assert(n.text in 'FM')
-                    res.gender = n.text
-                    n = next(tags_iter)
-            
-            # at this point, n.text == ')\n' or ') @ Item\n' 
-            if n.text.strip() != ')':
-                res.item = n.text[4:].strip()
-            n = next(tags_iter)
+            firstline += n.text
 
+            if '\n' in n.text:
+                n = next(tags_iter)
+                break
+        
+        print(firstline)
+
+        if '@' in firstline:
+            firstline, res.item = [s.strip() for s in firstline.split(' @ ')]
+        
+        # splits into "Nick", "Species)", "Gender)"
+        parts = firstline.split(' (')
+
+        if len(parts) == 1:
+            res.species = firstline
         else:
-            # n.text == 'Species\n' or 'Species @ Item\n'
-            res.species, res.item = [s.strip() for s in n.text.split('@')]
-            n = next(tags_iter)
+            if parts[-1][1] in 'FM':
+                res.gender = parts.pop()[1]
+            
+            if len(parts) == 1:
+                res.species = parts[0]
+            else:
+                res.nickname = parts[0]
+                # [1:-1] trims closing parentheses that we haven't trimmed yet
+                res.species = parts[1][:-1]
+
+        # if n.text.endswith('('):
+        #     # three cases:
+        #     # 1 Species (Gender) @
+        #     # 2 Nick (Species) (Gender) @
+        #     # 3 Nick (Species) @
+        #     species_or_nick = n.text[:-2]
+
+        #     n = next(tags_iter)
+        #     if n.text in 'FM':
+        #         # case 1
+        #         res.species = species_or_nick
+        #         res.gender = n.text
+        #         n = next(tags_iter)
+        #     else:
+        #         res.nickname = species_or_nick
+        #         res.species = n.text
+        #         n = next(tags_iter)
+        #         if n.text == ') (':
+        #             n = next(tags_iter)
+        #             assert(n.text in 'FM')
+        #             res.gender = n.text
+        #             n = next(tags_iter)
+            
+        #     # at this point, n.text == ')\n' or ') @ Item\n' 
+        #     if n.text.strip() != ')':
+        #         res.item = n.text[4:].strip()
+        #     n = next(tags_iter)
+
+        # else:
+        #     # n.text == 'Species\n' or 'Species @ Item\n'
+        #     res.species, res.item = [s.strip() for s in n.text.split('@')]
+        #     n = next(tags_iter)
 
 
         # iterate through everything before moveset:
