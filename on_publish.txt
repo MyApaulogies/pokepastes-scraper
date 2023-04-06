@@ -1,0 +1,17 @@
+
+
+activate venv
+
+pip install -U jsonpickle build twine
+
+
+pip install -e .
+
+run test/example.py
+
+
+rm -rf dist
+
+py -m build
+
+py -m twine upload dist/*
