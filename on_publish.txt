@@ -1,13 +1,13 @@
 
 
-activate venv
+activate venv, check with pip list
 
 pip install -U jsonpickle build twine
 
 
 pip install -e .
 
-run test/example.py
+run test/example.py, auto-format example_team.json
 
 
 rm -rf dist
