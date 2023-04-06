@@ -75,8 +75,6 @@ class PokepastesMon:
             if '\n' in n.text:
                 n = next(tags_iter)
                 break
-        
-        print(firstline)
 
         if '@' in firstline:
             firstline, res.item = [s.strip() for s in firstline.split(' @ ')]
