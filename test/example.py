@@ -1,3 +1,4 @@
+# requires: pip install jsonpickle
 
 import pokepastes_scraper as pastes
 import os, jsonpickle
