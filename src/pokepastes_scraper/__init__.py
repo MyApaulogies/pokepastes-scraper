@@ -5,7 +5,7 @@ from bs4.element import Tag
 from dataclasses import dataclass
 import os, itertools as it
 from dataclasses import dataclass
-import jsonpickle
+import json
 
 
 __all__ = [
@@ -61,6 +61,21 @@ class PokepastesMon:
     nature: str = None
     ivs: Stats = None
     moveset: list[str] = None
+
+    def to_dict(self):
+        '''Returns __dict__, excluding all fields that are `None`.'''
+        res = {}
+        for k, v in self.__dict__.items():
+            if v == None:
+                continue
+            
+            if type(v) == Stats:
+                res[k] = v.__dict__
+                continue
+            
+            res[k] = v
+
+        return res
 
     @staticmethod
     def _from_pre(tag: Tag):
@@ -215,11 +230,31 @@ class PokepastesMon:
 
 @dataclass
 class PokepastesTeam:
+    # CHECK to_dict IF YOU RENAME THIS FIELD
     members: list[PokepastesMon] = None
 
     title: str = None
     author: str = None
     desc: str = None
+
+    def to_dict(self) -> dict:
+        '''Returns `__dict__`, excluding all fields that are `None`. Calls `PokepastesMon.to_dict` on each Pokemon in `members`.'''
+        res = {}
+        for k, v in self.__dict__.items():
+            if v == None:
+                continue
+            if k == 'members':
+                res[k] = [mon.to_dict() for mon in self.members]
+                continue
+            
+            res[k] = v
+
+        return res
+
+
+    def to_json(self) -> str:
+        '''Serializes to JSON based on `to_dict` method.'''
+        return json.dumps(self.to_dict())
 
 
 def team_from_url(url: str):
@@ -245,3 +280,7 @@ def team_from_html(text: str):
     res.members = [PokepastesMon._from_pre(mon) for mon in html_mons]
 
     return res
+
+
+def team_from_json(json: str):
+    raise NotImplementedError('TODO')
