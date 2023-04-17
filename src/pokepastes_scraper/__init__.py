@@ -5,6 +5,7 @@ from bs4.element import Tag
 from dataclasses import dataclass
 import os, itertools as it
 from dataclasses import dataclass
+import jsonpickle
 
 
 __all__ = [

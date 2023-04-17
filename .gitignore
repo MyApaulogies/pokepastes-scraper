@@ -1,6 +1,7 @@
 __pycache__
 venv
 .vscode
+asdf
 asdf.*
 pokepastes_scraper.egg-info
 dist
