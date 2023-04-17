@@ -15,27 +15,21 @@ __all__ = [
 
 @dataclass
 class Stats:
-    HP: int
-    Atk: int
-    Def: int
-    SpA: int
-    SpD: int
-    Spe: int
+    HP: int = None
+    Atk: int = None
+    Def: int = None
+    SpA: int = None
+    SpD: int = None
+    Spe: int = None
+
+    def to_dict(self):
+        return { k: v for k, v in self.__dict__.items() if v != None }
 
     # e.g. stat_string = "4 Atk"
     def add_from_str(self, stat_string):
         val, stat = stat_string.split(' ')
         val = int(val)
         setattr(self, stat, val)
-
-
-
-def EVs(HP=0, Atk=0, Def=0, SpA=0, SpD=0, Spe=0):
-    return Stats(HP, Atk, Def, SpA, SpD, Spe)
-
-
-def IVs(HP=31, Atk=31, Def=31, SpA=31, SpD=31, Spe=31):
-    return Stats(HP, Atk, Def, SpA, SpD, Spe)
 
 
 # https://pokepast.es/syntax.html 
@@ -70,7 +64,7 @@ class PokepastesMon:
                 continue
             
             if type(v) == Stats:
-                res[k] = v.__dict__
+                res[k] = v.to_dict()
                 continue
             
             res[k] = v
@@ -188,16 +182,14 @@ class PokepastesMon:
                 case '-':
                     break
                 case other:
-                    if other.strip().endswith('Nature'):
-                        res.nature, _ = other.split(' ')    
+                    if curr.strip().endswith('Nature'):
+                        res.nature, _ = curr.split()
 
             if curr and curr in 'EVs:IVs:':
-                if curr == 'IVs':
-                    stats = IVs()
-                    res.ivs = stats
+                if curr == 'IVs:':
+                    stats = res.ivs = Stats()
                 else:
-                    stats = EVs()
-                    res.evs = stats
+                    stats = res.evs = Stats()
                 
                 while True:
                     n = next(tags_iter)
