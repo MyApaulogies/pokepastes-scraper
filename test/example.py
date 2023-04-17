@@ -9,4 +9,6 @@ with open(f'{thisdir}/example_team.json', 'w') as f:
     f.write(team.to_json())
 
 for mon in team.members:
-    print(f'{mon.species} with {mon.item or "no item"}')
+    print(f'{mon.species} with {mon.item or "no item"} (Tera: {mon.tera_type})')
+    for move in mon.moveset:
+        print('-', move)

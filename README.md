@@ -5,7 +5,9 @@ A simple library that converts a Pokemon team from https://pokepast.es to an obj
 
 ### Installation
 
-`pip install -U pokepastes-scraper`
+```
+pip install -U pokepastes-scraper
+```
 
 ### Usage 
 
@@ -17,20 +19,20 @@ import pokepastes_scraper as pastes
 team = pastes.team_from_url("https://pokepast.es/5c46f9ec443664cb")
 
 for mon in team.members:
-    print(f"{mon.species} with {mon.item}")
+    print(f'{mon.species} with {mon.item or "no item"} (Tera: {mon.tera_type})')
 ```
 
 Output: 
 
 ```
-Iron Hands with Assault Vest
-Amoonguss with Sitrus Berry
-Pelipper with Focus Sash
-Palafin with Mystic Water
-Baxcalibur with Dragon Fang
-Dragonite with Lum Berry
+Iron Hands with Assault Vest (Tera: Grass)
+Amoonguss with Sitrus Berry (Tera: Steel)
+Pelipper with Focus Sash (Tera: Flying)
+Palafin with Mystic Water (Tera: Water)
+Baxcalibur with Dragon Fang (Tera: Poison)
+Dragonite with Lum Berry (Tera: Flying)
 ```
 
 For a detailed example output of `team_from_url`, see `test/example.py` and its output `test/example_team.json`.
 
-Tested in python 3.11, but likely compatible with 3.7+. Feel freet to contact me about functionality you would like implemented.
+Tested in python 3.11, but likely compatible with 3.7+.
