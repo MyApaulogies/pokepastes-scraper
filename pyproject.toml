@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pokepastes-scraper"
-version = "0.1.0"
+version = "0.2.0"
 authors = [
   { name="MyApaulogies", email="myapaulogies@tuta.io" },
 ]
-description = "Extracts Pokémon team information from a https://pokepast.es/ URL."
+description = "Extracts Pokémon team information from a https://pokepast.es/ URL to a JSON-serializable Python object."
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",

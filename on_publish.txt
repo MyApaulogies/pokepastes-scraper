@@ -1,16 +1,25 @@
 
+rm -rf temp_venv
 
-activate venv, check with pip list
+rm -rf dist
+
+py -m venv --upgrade-deps temp_venv
+
+temp_venv\Scripts\activate
+
+check with pip list
 
 pip install -U build twine
 
 
 pip install -e .
 
-run test/example.py, auto-format example_team.json
+run example/example.py, auto-format example_team.json
 
 
-rm -rf dist
+check pyproject.toml:
+- bump version
+- change descriptions / dependencies
 
 py -m build
 
