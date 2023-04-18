@@ -35,4 +35,4 @@ Dragonite with Lum Berry (Tera: Flying)
 
 For a detailed example output of `team_from_url`, see `test/example.py` and its output `test/example_team.json`.
 
-Tested in python 3.11, but likely compatible with 3.10+.
+Tested in python 3.11, but likely compatible with 3.10+. Feel free to contact me: myapaulogies@tuta.io
