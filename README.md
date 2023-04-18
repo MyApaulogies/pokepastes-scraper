@@ -1,7 +1,7 @@
 
 # pokepastes-scraper
 
-A simple library that converts a Pokemon team from https://pokepast.es to an object in Python.
+A simple library that converts a Pokemon team from https://pokepast.es to a object in Python. Supports conversion to and from JSON.
 
 ### Installation
 
@@ -35,4 +35,4 @@ Dragonite with Lum Berry (Tera: Flying)
 
 For a detailed example output of `team_from_url`, see `test/example.py` and its output `test/example_team.json`.
 
-Tested in python 3.11, but likely compatible with 3.7+.
+Tested in python 3.11, but likely compatible with 3.10+.
