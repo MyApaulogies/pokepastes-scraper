@@ -2,7 +2,7 @@
 
 activate venv, check with pip list
 
-pip install -U jsonpickle build twine
+pip install -U build twine
 
 
 pip install -e .
