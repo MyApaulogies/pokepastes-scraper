@@ -25,8 +25,9 @@ class Stats:
     def to_dict(self):
         return { k: v for k, v in self.__dict__.items() if v != None }
 
+
     # e.g. stat_string = "4 Atk"
-    def add_from_str(self, stat_string):
+    def _add_from_str(self, stat_string):
         val, stat = stat_string.split(' ')
         val = int(val)
         setattr(self, stat, val)
@@ -37,7 +38,7 @@ class Stats:
 @dataclass
 class PokepastesMon:
     # this should be the order they appear on the team's webpage
-    # `None` should mean "unspecified"
+    # `None` means "unspecified"
     species: str = None
     nickname: str = None
     gender: str = None
@@ -149,7 +150,7 @@ class PokepastesMon:
                 
                 while True:
                     n = next(tags_iter)
-                    stats.add_from_str(n.text.strip())
+                    stats._add_from_str(n.text.strip())
                     
                     n = next(tags_iter)
                     if n.text != ' / ':
@@ -178,7 +179,7 @@ class PokepastesMon:
 
 @dataclass
 class PokepastesTeam:
-    # CHECK to_dict IF YOU RENAME THIS FIELD
+    # IF YOU RENAME THIS FIELD THEN CHECK: to_dict, team_from_json 
     members: list[PokepastesMon] = None
 
     title: str = None
@@ -205,10 +206,48 @@ class PokepastesTeam:
         return json.dumps(self.to_dict())
 
 
+
+def _mon_from_dict(d: dict):
+    res = PokepastesMon()
+
+    for k,v in d.items():
+        if k in ('evs', 'ivs'):
+            if k == 'evs':
+                stat = res.evs = Stats()
+            else:
+                stat = res.ivs = Stats()
+
+            for statname, value in v.items():
+                setattr(stat, statname, value)
+        else:
+            try:
+                setattr(res, k, v)
+            except AttributeError:
+                print('WARN: skipping unknown field', k)
+    
+    return res
+
+def team_from_json(json_string: str | bytes | bytearray):
+    '''Returns a team given a JSON that was generated with `PokepastesTeam.to_json()`.'''
+    d: dict = json.loads(json_string)
+    res = PokepastesTeam()
+    
+    for k,v in d.items():
+        if k == 'members':
+            res.members = [_mon_from_dict(mon) for mon in v]
+        else:
+            try:
+                setattr(res, k, v)
+            except AttributeError:
+                print('WARN: skipping unknown field', k)
+    
+    return res
+
+
+
 def team_from_url(url: str):
     page = requests.get(url)
     return team_from_html(page.text)
-
 
 def team_from_html(text: str):
     res = PokepastesTeam()
@@ -228,7 +267,3 @@ def team_from_html(text: str):
     res.members = [PokepastesMon._from_pre(mon) for mon in html_mons]
 
     return res
-
-
-def team_from_json(json: str):
-    raise NotImplementedError('TODO')

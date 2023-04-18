@@ -1,0 +1,79 @@
+{
+    "members": [
+        {
+            "species": "Roaring Moon",
+            "item": "Booster Energy",
+            "ability": "Protosynthesis",
+            "tera_type": "Flying",
+            "moveset": [
+                "Acrobatics",
+                "Throat Chop",
+                "Dragon Dance",
+                "Protect"
+            ]
+        },
+        {
+            "species": "Corviknight",
+            "item": "Sitrus Berry",
+            "ability": "Mirror Armor",
+            "tera_type": "Dragon",
+            "moveset": [
+                "Brave Bird",
+                "Body Press",
+                "Tailwind",
+                "Roost"
+            ]
+        },
+        {
+            "species": "Volcarona",
+            "item": "Leftovers",
+            "ability": "Flame Body",
+            "tera_type": "Grass",
+            "moveset": [
+                "Flamethrower",
+                "Giga Drain",
+                "Quiver Dance",
+                "Protect"
+            ]
+        },
+        {
+            "species": "Klefki",
+            "item": "Light Clay",
+            "ability": "Prankster",
+            "tera_type": "Ghost",
+            "moveset": [
+                "Dazzling Gleam",
+                "Reflect",
+                "Light Screen",
+                "Thunder Wave"
+            ]
+        },
+        {
+            "species": "Garchomp",
+            "item": "Choice Scarf",
+            "ability": "Rough Skin",
+            "tera_type": "Ground",
+            "moveset": [
+                "Earthquake",
+                "Dragon Claw",
+                "Rock Slide",
+                "Stomping Tantrum"
+            ]
+        },
+        {
+            "species": "Iron Bundle",
+            "item": "Covert Cloak",
+            "ability": "Quark Drive",
+            "tera_type": "Ice",
+            "moveset": [
+                "Hydro Pump",
+                "Freeze-Dry",
+                "Icy Wind",
+                "Protect"
+            ]
+        }
+    ],
+    "title": "Alberto Lara's 2023 Oceania Internationals Open Team List",
+    "author": "VGCPastes",
+    "desc": "Format: gen9vgc2023series2"
+}
