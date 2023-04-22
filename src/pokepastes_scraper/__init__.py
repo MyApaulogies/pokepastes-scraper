@@ -227,9 +227,9 @@ def _mon_from_dict(d: dict):
     
     return res
 
-def team_from_json(json_string: str | bytes | bytearray):
-    '''Returns a team given a JSON that was generated with `PokepastesTeam.to_json()`.'''
-    d: dict = json.loads(json_string)
+
+def team_from_dict(d: dict):
+    '''Returns a team given a `dict` representation of the JSON generated with `PokepastesTeam.to_json()`.'''
     res = PokepastesTeam()
     
     for k,v in d.items():
@@ -243,6 +243,9 @@ def team_from_json(json_string: str | bytes | bytearray):
     
     return res
 
+def team_from_json(json_string: str | bytes | bytearray):
+    '''Returns a team given a JSON that was generated with `PokepastesTeam.to_json()`.'''
+    return team_from_dict(json.loads(json_string))
 
 
 def team_from_url(url: str):
@@ -258,7 +261,7 @@ def team_from_html(text: str):
 
     # get first six elements, and save three meaningful ones
     _, res.title, _, author_line, _, res.desc = \
-        [i.text.strip() for i in it.islice(sidebar_iter, 6)]
+        [i.text.strip() or None for i in it.islice(sidebar_iter, 6)]
 
     # get stuff right of first 'by' (there must be a better way)
     res.author = ''.join(author_line.split('by')[1:]).strip()
