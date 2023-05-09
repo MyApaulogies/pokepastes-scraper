@@ -76,7 +76,7 @@ class PokepastesMon:
     def _from_pre(tag: Tag):
         # rule of thumb for this function: n = next(tags_iter) whenever you are done with n's current value
         tags_iter = iter(tag.children)
-        res = PokepastesMon('asdfasdf')
+        res = PokepastesMon()
 
         firstline = ''
         while True:
@@ -136,9 +136,9 @@ class PokepastesMon:
                     n = next(tags_iter)
                     res.tera_type = n.text.strip()
                 # see below match statement for evs: ivs: case
-                case '-':
-                    break
                 case other:
+                    if curr.startswith('-'):
+                        break
                     if curr.strip().endswith('Nature'):
                         res.nature, _ = curr.split()
 
@@ -160,20 +160,19 @@ class PokepastesMon:
                 n = next(tags_iter)
         
     
-        # n is on a '-' before the first move
         res.moveset = []
 
-        # skip '-'
-        n = next(tags_iter)
+        # n is on a '-' before the first move
+        moveset_str = n.text
+        for n in tags_iter:
+            moveset_str += n.text
+        
+        for move in moveset_str.split('\n'):
+            if not move.strip():
+                continue
+            # shave off '-' and whitespace
+            res.moveset.append(move[1:].strip())
 
-        for _ in range(3):
-            res.moveset.append(n.text.strip())
-            n = next(tags_iter)
-            # skip '-'
-            n = next(tags_iter)
-
-        # don't `n = next(tags_iter)` on the last iteration to not raise StopIteration
-        res.moveset.append(n.text.strip())
         return res
 
 
