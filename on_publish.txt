@@ -1,13 +1,7 @@
 
-rm -rf temp_venv
-
 rm -rf dist
 
-py -m venv --upgrade-deps temp_venv
-
-temp_venv\Scripts\activate
-
-check with pip list
+activate venv
 
 pip install -U build twine
 
