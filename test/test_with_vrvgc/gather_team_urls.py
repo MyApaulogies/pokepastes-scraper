@@ -55,11 +55,11 @@ print(f'- average get time: {avg(get_elapsed)}')
 print(f'- average parse time: {avg(parse_elapsed)}')
 
 this_dir = os.path.dirname(__file__)
-outfile = f'{this_dir}/teams.txt'
+outfile = f'{this_dir}{os.sep}team_urls.txt'
 
 i = 1
 while os.path.exists(outfile):
-    outfile = f'{this_dir}/teams({i}).txt'
+    outfile = f'{this_dir}{os.sep}team_urls({i}).txt'
     i += 1
 
 with open(outfile, 'w') as f:
