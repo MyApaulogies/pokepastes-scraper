@@ -1,0 +1,69 @@
+Untitled PokePaste
+Lauren (Gothitelle) @ Sitrus Berry  
+Ability: Shadow Tag  
+Level: 50  
+Tera Type: Water  
+EVs: 252 HP / 124 Def / 132 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Psychic  
+- Trick Room  
+- Fake Out  
+- Protect  
+Shingo (Flutter Mane) @ Focus Sash  
+Ability: Protosynthesis  
+Level: 50  
+Tera Type: Fairy  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 21 Atk  
+- Moonblast  
+- Shadow Ball  
+- Protect  
+- Perish Song  
+What the dog (Arcanine) @ Mago Berry  
+Ability: Intimidate  
+Level: 50  
+Tera Type: Grass  
+EVs: 52 HP / 252 Atk / 4 Def / 4 SpD / 196 Spe  
+Jolly Nature  
+IVs: 25 SpA  
+- Flare Blitz  
+- Extreme Speed  
+- Will-O-Wisp  
+- Protect  
+Pogafin (Palafin) @ Mystic Water  
+Ability: Zero to Hero  
+Level: 50  
+Tera Type: Grass  
+EVs: 196 HP / 252 Atk / 4 Def / 4 SpD / 52 Spe  
+Adamant Nature  
+- Wave Crash  
+- Jet Punch  
+- Haze  
+- Protect  
+Kento (Amoonguss) @ Covert Cloak  
+Ability: Regenerator  
+Level: 50  
+Tera Type: Dark  
+EVs: 228 HP / 124 Def / 156 SpD  
+Sassy Nature  
+IVs: 17 Atk / 0 Spe  
+- Spore  
+- Rage Powder  
+- Pollen Puff  
+- Protect  
+Iron Goat (Iron Hands) @ Safety Goggles  
+Ability: Quark Drive  
+Level: 50  
+Tera Type: Fire  
+EVs: 84 HP / 124 Atk / 36 Def / 252 SpD / 12 Spe  
+Adamant Nature  
+IVs: 0 SpA  
+- Fake Out  
+- Drain Punch  
+- Thunder Punch  
+- Swords Dance  
+Columns Mode / 
+Stat Colours / 
+Light Mode

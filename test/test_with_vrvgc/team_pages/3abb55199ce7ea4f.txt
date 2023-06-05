@@ -1,0 +1,67 @@
+Untitled PokePaste
+Gholdengo @ Choice Specs  
+Ability: Good as Gold  
+Level: 50  
+Tera Type: Water  
+EVs: 36 HP / 4 Def / 252 SpA / 4 SpD / 212 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Trick  
+- Thunderbolt  
+- Make It Rain  
+- Shadow Ball  
+Pawmot @ Focus Sash  
+Ability: Volt Absorb  
+Level: 50  
+Tera Type: Electric  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Fake Out  
+- Mach Punch  
+- Revival Blessing  
+- Double Shock  
+Dragonite @ Choice Band  
+Ability: Multiscale  
+Level: 50  
+Tera Type: Flying  
+EVs: 180 HP / 252 Atk / 36 Def / 4 SpD / 36 Spe  
+Adamant Nature  
+IVs: 17 SpA  
+- Tera Blast  
+- Ice Spinner  
+- Extreme Speed  
+- Brick Break  
+Talonflame @ Life Orb  
+Ability: Gale Wings  
+Level: 50  
+Tera Type: Ghost  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Flare Blitz  
+- Brave Bird  
+- Will-O-Wisp  
+- Tailwind  
+Dondozo @ Leftovers  
+Ability: Unaware  
+Level: 50  
+Tera Type: Flying  
+EVs: 12 HP / 252 Atk / 4 Def / 20 SpD / 220 Spe  
+Jolly Nature  
+- Wave Crash  
+- Yawn  
+- Tera Blast  
+- Protect  
+Tatsugiri @ Choice Scarf  
+Ability: Commander  
+Level: 50  
+Tera Type: Dragon  
+EVs: 12 HP / 244 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Draco Meteor  
+- Muddy Water  
+- Icy Wind  
+- Sleep Talk  
+Columns Mode / 
+Stat Colours / 
+Light Mode

@@ -1,0 +1,71 @@
+SD Regional Team
+Murkrow @ Eviolite  
+Ability: Prankster  
+Level: 50  
+Tera Type: Steel  
+EVs: 252 HP / 156 Def / 100 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Tailwind  
+- Foul Play  
+- Haze  
+- Quash  
+Amoonguss @ Rocky Helmet  
+Ability: Regenerator  
+Level: 50  
+Tera Type: Water  
+EVs: 252 HP / 156 Def / 100 SpD  
+Bold Nature  
+IVs: 0 Atk / 26 Spe  
+- Rage Powder  
+- Spore  
+- Protect  
+- Pollen Puff  
+Garchomp @ Life Orb  
+Ability: Rough Skin  
+Level: 50  
+Tera Type: Fire  
+EVs: 44 HP / 204 Atk / 4 Def / 4 SpD / 252 Spe  
+Jolly Nature  
+- Dragon Claw  
+- Earthquake  
+- Protect  
+- Swords Dance  
+Tauros-Paldea-Fire @ Focus Sash  
+Ability: Intimidate  
+Level: 50  
+Tera Type: Grass  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Close Combat  
+- Raging Bull  
+- Will-O-Wisp  
+- Protect  
+Gholdengo @ Sitrus Berry  
+Ability: Good as Gold  
+Level: 50  
+Tera Type: Flying  
+EVs: 148 HP / 4 Def / 156 SpA / 4 SpD / 196 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Make It Rain  
+- Protect  
+- Shadow Ball  
+- Nasty Plot  
+Hydreigon @ Assault Vest  
+Ability: Levitate  
+Level: 50  
+Tera Type: Fire  
+EVs: 188 HP / 28 Def / 116 SpA / 4 SpD / 172 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Dark Pulse  
+- Snarl  
+- Draco Meteor  
+- Fire Blast  
+SD Regional Team
+ by tsltang0508
+Format: gen9vgc2023series1
+Columns Mode / 
+Stat Colours / 
+Light Mode

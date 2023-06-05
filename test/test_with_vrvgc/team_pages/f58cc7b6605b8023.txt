@@ -1,0 +1,70 @@
+Untitled PokePaste
+GMA (Palafin) @ Safety Goggles  
+Ability: Zero to Hero  
+Level: 50  
+Shiny: Yes  
+Tera Type: Water  
+EVs: 204 HP / 252 Atk / 4 Def / 4 SpD / 44 Spe  
+Adamant Nature  
+- Wave Crash  
+- Jet Punch  
+- Haze  
+- Protect  
+Summer (Gholdengo) @ Life Orb  
+Ability: Good as Gold  
+Level: 50  
+Tera Type: Steel  
+EVs: 164 HP / 4 Def / 76 SpA / 12 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Make It Rain  
+- Shadow Ball  
+- Nasty Plot  
+- Protect  
+Pl00ch (Iron Hands) @ Assault Vest  
+Ability: Quark Drive  
+Level: 50  
+Tera Type: Grass  
+EVs: 140 HP / 76 Atk / 4 Def / 244 SpD / 44 Spe  
+Adamant Nature  
+- Fake Out  
+- Drain Punch  
+- Wild Charge  
+- Volt Switch  
+Mermis (Amoonguss) @ Sitrus Berry  
+Ability: Regenerator  
+Level: 50  
+Tera Type: Dark  
+EVs: 244 HP / 108 Def / 156 SpD  
+Calm Nature  
+IVs: 0 Atk / 0 Spe  
+- Pollen Puff  
+- Rage Powder  
+- Spore  
+- Protect  
+Sandy (Dragonite) @ Lum Berry  
+Ability: Multiscale  
+Level: 50  
+Shiny: Yes  
+Tera Type: Flying  
+EVs: 180 HP / 252 Atk / 4 Def / 12 SpD / 60 Spe  
+Adamant Nature  
+- Extreme Speed  
+- Tera Blast  
+- Ice Spinner  
+- Protect  
+Emforbes (Pelipper) @ Focus Sash  
+Ability: Drizzle  
+Level: 50  
+Shiny: Yes  
+Tera Type: Flying  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Hurricane  
+- Tailwind  
+- Protect  
+Columns Mode / 
+Stat Colours / 
+Light Mode

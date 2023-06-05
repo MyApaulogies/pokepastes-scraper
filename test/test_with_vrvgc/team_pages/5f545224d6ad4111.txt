@@ -1,0 +1,71 @@
+Jessica Bradley's 2023 OCIC 49th Place Team, 6-3 Swiss Record
+AggressiveGF (Armarouge) @ Twisted Spoon  
+Ability: Flash Fire  
+Level: 50  
+Tera Type: Grass  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Quiet Nature  
+IVs: 0 Spe  
+- Expanding Force  
+- Heat Wave  
+- Psychic  
+- Trick Room  
+SupportiveGF (Indeedee-F) @ Psychic Seed  
+Ability: Psychic Surge  
+Level: 50  
+Tera Type: Fairy  
+EVs: 252 HP / 228 Def / 28 SpD  
+Sassy Nature  
+IVs: 0 Spe  
+- Psyshock  
+- Helping Hand  
+- Follow Me  
+- Skill Swap  
+The Taxman (Iron Hands) @ Sitrus Berry  
+Ability: Quark Drive  
+Level: 50  
+Tera Type: Grass  
+EVs: 244 HP / 4 Atk / 92 Def / 164 SpD  
+Sassy Nature  
+IVs: 0 Spe  
+- Drain Punch  
+- Thunder Punch  
+- Belly Drum  
+- Detect  
+Tax Fraud (Amoonguss) @ Covert Cloak  
+Ability: Regenerator  
+Level: 50  
+Tera Type: Water  
+EVs: 228 HP / 124 Def / 156 SpD  
+Sassy Nature  
+- Pollen Puff  
+- Rage Powder  
+- Spore  
+- Clear Smog  
+Beepy (Flutter Mane) @ Focus Sash  
+Ability: Protosynthesis  
+Level: 50  
+Shiny: Yes  
+Tera Type: Fairy  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+- Dazzling Gleam  
+- Shadow Ball  
+- Moonblast  
+- Protect  
+Daddy Mence (Roaring Moon) @ Booster Energy  
+Ability: Protosynthesis  
+Level: 50  
+Tera Type: Flying  
+EVs: 4 HP / 236 Atk / 12 Def / 4 SpD / 252 Spe  
+Jolly Nature  
+- Acrobatics  
+- Jaw Lock  
+- Tailwind  
+- Protect  
+Jessica Bradley's 2023 OCIC 49th Place Team, 6-3 Swiss Record
+ by VGCPastes
+Format: gen9vgc2023series2
+Columns Mode / 
+Stat Colours / 
+Light Mode

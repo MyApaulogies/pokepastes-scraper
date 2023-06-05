@@ -1,0 +1,70 @@
+Untitled PokePaste
+Vivian (Flutter Mane) @ Life Orb  
+Ability: Protosynthesis  
+Level: 50  
+Tera Type: Fairy  
+EVs: 76 HP / 28 Def / 204 SpA / 4 SpD / 196 Spe  
+Modest Nature  
+IVs: 23 Atk  
+- Moonblast  
+- Shadow Ball  
+- Protect  
+- Perish Song  
+Hooktail (Tyranitar) @ Assault Vest  
+Ability: Sand Stream  
+Level: 50  
+Tera Type: Flying  
+EVs: 172 HP / 252 Atk / 68 Def / 4 SpD / 12 Spe  
+Adamant Nature  
+IVs: 11 SpA  
+- Tera Blast  
+- Rock Slide  
+- Low Kick  
+- Crunch  
+Ms. Mowz (Maushold-Four) @ Safety Goggles  
+Ability: Friend Guard  
+Level: 50  
+Tera Type: Ghost  
+EVs: 252 HP / 4 Def / 252 Spe  
+Timid Nature  
+IVs: 13 Atk / 5 SpA  
+- Beat Up  
+- Taunt  
+- Protect  
+- Follow Me  
+Boggly (Amoonguss) @ Sitrus Berry  
+Ability: Regenerator  
+Level: 50  
+Tera Type: Dark  
+EVs: 228 HP / 164 Def / 4 SpA / 100 SpD / 4 Spe  
+Bold Nature  
+IVs: 29 Atk  
+- Pollen Puff  
+- Rage Powder  
+- Protect  
+- Spore  
+Doopliss (Annihilape) @ Leftovers  
+Ability: Defiant  
+Level: 50  
+Tera Type: Fire  
+EVs: 172 HP / 196 Atk / 12 Def / 124 SpD / 4 Spe  
+Adamant Nature  
+IVs: 23 SpA  
+- Bulk Up  
+- Drain Punch  
+- Protect  
+- Rage Fist  
+Rawk Hawk (Iron Bundle) @ Booster Energy  
+Ability: Quark Drive  
+Level: 50  
+Tera Type: Ghost  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 5 Atk  
+- Protect  
+- Freeze-Dry  
+- Hydro Pump  
+- Icy Wind  
+Columns Mode / 
+Stat Colours / 
+Light Mode

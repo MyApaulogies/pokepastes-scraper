@@ -1,0 +1,70 @@
+Tiago Correia's 2023 Natal Regionals Top 8 Team, 5-2 Swiss Record, 83 Players
+Tyranitar @ Assault Vest  
+Ability: Sand Stream  
+Level: 50  
+Tera Type: Flying  
+EVs: 252 HP / 252 Atk / 4 Spe  
+Adamant Nature  
+- Rock Slide  
+- Crunch  
+- Low Kick  
+- Tera Blast  
+Flutter Mane @ Choice Specs  
+Ability: Protosynthesis  
+Level: 50  
+Shiny: Yes  
+Tera Type: Fairy  
+EVs: 252 HP / 228 Def / 4 SpA / 4 SpD / 20 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Dazzling Gleam  
+- Moonblast  
+- Mystical Fire  
+- Shadow Ball  
+Palafin @ Mystic Water  
+Ability: Zero to Hero  
+Level: 50  
+Tera Type: Water  
+EVs: 180 HP / 252 Atk / 76 Spe  
+Adamant Nature  
+- Protect  
+- Wave Crash  
+- Jet Punch  
+- Haze  
+Arcanine @ Safety Goggles  
+Ability: Intimidate  
+Level: 50  
+Tera Type: Grass  
+EVs: 248 HP / 20 Atk / 236 SpD  
+Careful Nature  
+- Will-O-Wisp  
+- Snarl  
+- Flare Blitz  
+- Morning Sun  
+Corviknight @ Leftovers  
+Ability: Mirror Armor  
+Level: 50  
+Tera Type: Fire  
+EVs: 244 HP / 100 Atk / 4 Def / 148 SpD / 12 Spe  
+Adamant Nature  
+- Protect  
+- Brave Bird  
+- Iron Head  
+- Roost  
+Gastrodon @ Covert Cloak  
+Ability: Storm Drain  
+Level: 50  
+Tera Type: Fire  
+EVs: 252 HP / 220 Def / 36 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Recover  
+- Earth Power  
+- Ice Beam  
+- Protect  
+Tiago Correia's 2023 Natal Regionals Top 8 Team, 5-2 Swiss Record, 83 Players
+ by VGCPastes
+Format: gen9vgc2023series2
+Columns Mode / 
+Stat Colours / 
+Light Mode

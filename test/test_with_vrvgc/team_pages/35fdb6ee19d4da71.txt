@@ -1,0 +1,72 @@
+T4 San Diego Regionals
+Pelipper @ Damp Rock  
+Ability: Drizzle  
+Level: 50  
+Tera Type: Grass  
+EVs: 252 HP / 4 Def / 36 SpA / 100 SpD / 116 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Hurricane  
+- Hydro Pump  
+- Tailwind  
+- Wide Guard  
+CAPTAIN GOLD (Gholdengo) @ Leftovers  
+Ability: Good as Gold  
+Level: 50  
+Tera Type: Steel  
+EVs: 108 HP / 4 Def / 140 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Make It Rain  
+- Shadow Ball  
+- Nasty Plot  
+- Protect  
+E HERO CLAYMAN (Amoonguss) @ Sitrus Berry  
+Ability: Regenerator  
+Level: 50  
+Tera Type: Dark  
+EVs: 244 HP / 180 Def / 4 SpA / 76 SpD / 4 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Spore  
+- Pollen Puff  
+- Leaf Storm  
+- Rage Powder  
+Kingambit @ Assault Vest  
+Ability: Defiant  
+Level: 50  
+Shiny: Yes  
+Tera Type: Grass  
+EVs: 252 HP / 196 Atk / 4 Def / 4 SpD / 52 Spe  
+Adamant Nature  
+- Kowtow Cleave  
+- Iron Head  
+- Sucker Punch  
+- Low Kick  
+E HERO NEOS (Palafin) @ Mystic Water  
+Ability: Zero to Hero  
+Level: 50  
+Tera Type: Grass  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Flip Turn  
+- Jet Punch  
+- Wave Crash  
+- Haze  
+EHERO STRATOS (Salamence) @ Life Orb  
+Ability: Intimidate  
+Level: 50  
+Tera Type: Steel  
+EVs: 4 HP / 4 Def / 252 SpA / 4 SpD / 244 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Draco Meteor  
+- Hurricane  
+- Tailwind  
+- Protect  
+T4 San Diego Regionals
+ by SoulSur
+Team Report on ck49's YT channel: https://youtu.be/nhQ4O01nM54
+Columns Mode / 
+Stat Colours / 
+Light Mode

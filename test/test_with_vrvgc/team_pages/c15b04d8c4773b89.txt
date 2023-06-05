@@ -1,0 +1,66 @@
+Untitled 39
+Toedscruel @ Mental Herb  
+Ability: Mycelium Might  
+Tera Type: Water  
+EVs: 252 HP / 196 Def / 60 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Trick Room  
+- Spore  
+- Rage Powder  
+- Earth Power  
+Dragonite @ Choice Band  
+Ability: Multiscale  
+Tera Type: Normal  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Adamant Nature  
+- Extreme Speed  
+- Ice Spinner  
+- Fire Punch  
+- Stomping Tantrum  
+Farigiraf @ Throat Spray  
+Ability: Armor Tail  
+Tera Type: Normal  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Quiet Nature  
+IVs: 0 Atk / 0 Spe  
+- Hyper Voice  
+- Psychic  
+- Trick Room  
+- Imprison  
+Hariyama @ Flame Orb  
+Ability: Guts  
+Tera Type: Dark  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Brave Nature  
+IVs: 0 Spe  
+- Fake Out  
+- Wide Guard  
+- Knock Off  
+- Close Combat  
+Torkoal @ Charcoal  
+Ability: Drought  
+Tera Type: Fire  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Quiet Nature  
+IVs: 0 Atk / 0 Spe  
+- Eruption  
+- Heat Wave  
+- Clear Smog  
+- Protect  
+Azumarill @ Life Orb  
+Ability: Huge Power  
+Tera Type: Grass  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Brave Nature  
+IVs: 1 Spe  
+- Aqua Jet  
+- Protect  
+- Liquidation  
+- Play Rough  
+Untitled 39
+ by kmilly132
+Format: gen9vgc2023series1
+Columns Mode / 
+Stat Colours / 
+Light Mode

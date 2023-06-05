@@ -1,0 +1,67 @@
+Untitled PokePaste
+Garganacl @ Leftovers  
+Ability: Purifying Salt  
+Level: 50  
+Tera Type: Fire  
+EVs: 252 HP / 76 Def / 180 SpD  
+Impish Nature  
+- Salt Cure  
+- Recover  
+- Wide Guard  
+- Protect  
+Espathra @ Covert Cloak  
+Ability: Opportunist  
+Level: 50  
+Tera Type: Fairy  
+EVs: 92 HP / 76 Def / 4 SpA / 84 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Lumina Crash  
+- Dazzling Gleam  
+- Skill Swap  
+- Protect  
+Tinkaton @ Safety Goggles  
+Ability: Mold Breaker  
+Level: 50  
+Tera Type: Steel  
+EVs: 132 HP / 140 Atk / 44 Def / 4 SpD / 188 Spe  
+Jolly Nature  
+- Gigaton Hammer  
+- Knock Off  
+- Encore  
+- Fake Out  
+Volcarona @ Life Orb  
+Ability: Flame Body  
+Level: 50  
+Tera Type: Grass  
+EVs: 140 HP / 44 Def / 60 SpA / 12 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Bug Buzz  
+- Heat Wave  
+- Giga Drain  
+- Protect  
+Quaquaval @ Rindo Berry  
+Ability: Moxie  
+Level: 50  
+Tera Type: Steel  
+EVs: 124 HP / 156 Atk / 20 Def / 4 SpD / 204 Spe  
+Adamant Nature  
+- Aqua Step  
+- Brick Break  
+- Ice Spinner  
+- Detect  
+Hydreigon @ Sitrus Berry  
+Ability: Levitate  
+Level: 50  
+Tera Type: Steel  
+EVs: 212 HP / 20 Def / 116 SpA / 4 SpD / 156 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Dark Pulse  
+- Draco Meteor  
+- Tailwind  
+- Protect  
+Columns Mode / 
+Stat Colours / 
+Light Mode

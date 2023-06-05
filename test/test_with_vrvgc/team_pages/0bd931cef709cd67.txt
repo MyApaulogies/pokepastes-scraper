@@ -1,0 +1,52 @@
+Untitled PokePaste
+Garchomp @ Life Orb  
+Ability: Rough Skin  
+Level: 50  
+Tera Type: Ground  
+- Dragon Claw  
+- Earthquake  
+- Rock Slide  
+- Protect  
+Talonflame @ Covert Cloak  
+Ability: Gale Wings  
+Level: 50  
+Tera Type: Flying  
+- Brave Bird  
+- Flare Blitz  
+- Taunt  
+- Tailwind  
+Dragonite @ Choice Band  
+Ability: Inner Focus  
+Level: 50  
+Tera Type: Normal  
+- Extreme Speed  
+- Outrage  
+- Earthquake  
+- Ice Spinner  
+Gallade @ Focus Sash  
+Ability: Sharpness  
+Level: 50  
+Tera Type: Fighting  
+- Sacred Sword  
+- Psycho Cut  
+- Night Slash  
+- Protect  
+Kingambit @ Safety Goggles  
+Ability: Defiant  
+Level: 50  
+Tera Type: Dark  
+- Iron Head  
+- Kowtow Cleave  
+- Sucker Punch  
+- Protect  
+Rotom-Wash @ Sitrus Berry  
+Ability: Levitate  
+Level: 50  
+Tera Type: Grass  
+- Thunderbolt  
+- Hydro Pump  
+- Light Screen  
+- Will-O-Wisp  
+Columns Mode / 
+Stat Colours / 
+Light Mode

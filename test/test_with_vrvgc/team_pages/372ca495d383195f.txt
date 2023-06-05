@@ -1,0 +1,65 @@
+San Diego Regionals Final Version
+Tauros-Paldea-Water @ Safety Goggles  
+Ability: Intimidate  
+Tera Type: Water  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Raging Bull  
+- Close Combat  
+- Aqua Jet  
+- Protect  
+Hydreigon @ Scope Lens  
+Ability: Levitate  
+Tera Type: Steel  
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Draco Meteor  
+- Dark Pulse  
+- Focus Energy  
+- Protect  
+Amoonguss @ Rocky Helmet  
+Ability: Regenerator  
+Tera Type: Dark  
+EVs: 236 HP / 164 Def / 4 SpA / 92 SpD / 12 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Spore  
+- Pollen Puff  
+- Protect  
+- Rage Powder  
+Talonflame @ Life Orb  
+Ability: Gale Wings  
+Tera Type: Flying  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Brave Bird  
+- Flare Blitz  
+- Tailwind  
+- Protect  
+Gholdengo @ Leftovers  
+Ability: Good as Gold  
+Tera Type: Steel  
+EVs: 236 HP / 4 Def / 156 SpA / 4 SpD / 108 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Make It Rain  
+- Shadow Ball  
+- Nasty Plot  
+- Protect  
+Glimmora @ Choice Specs  
+Ability: Toxic Debris  
+Tera Type: Grass  
+EVs: 20 HP / 4 Def / 220 SpA / 12 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Power Gem  
+- Sludge Bomb  
+- Energy Ball  
+- Earth Power  
+San Diego Regionals Final Version
+ by JamesWBaek
+Format: gen9vgc2023series1
+Columns Mode / 
+Stat Colours / 
+Light Mode

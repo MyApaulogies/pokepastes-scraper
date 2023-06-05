@@ -1,0 +1,68 @@
+[Series 2] Orlando + Vancouver Regionals 2023
+Iron Bundle @ Focus Sash  
+Ability: Quark Drive  
+Tera Type: Ice  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Icy Wind  
+- Hydro Pump  
+- Freeze-Dry  
+- Protect  
+Hydreigon @ Life Orb  
+Ability: Levitate  
+Tera Type: Poison  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Protect  
+- Draco Meteor  
+- Earth Power  
+- Dark Pulse  
+Amoonguss (M) @ Rocky Helmet  
+Ability: Regenerator  
+Tera Type: Water  
+EVs: 252 HP / 204 Def / 52 SpD  
+Relaxed Nature  
+IVs: 0 Atk / 14 Spe  
+- Pollen Puff  
+- Spore  
+- Rage Powder  
+- Protect  
+Arcanine (F) @ Sitrus Berry  
+Ability: Intimidate  
+Level: 50  
+Tera Type: Water  
+EVs: 236 HP / 4 Atk / 52 Def / 116 SpD / 100 Spe  
+Jolly Nature  
+- Flare Blitz  
+- Will-O-Wisp  
+- Snarl  
+- Protect  
+Iron Hands @ Assault Vest  
+Ability: Quark Drive  
+Tera Type: Grass  
+EVs: 76 HP / 124 Atk / 52 Def / 252 SpD / 4 Spe  
+Adamant Nature  
+- Fake Out  
+- Drain Punch  
+- Wild Charge  
+- Ice Punch  
+Gholdengo @ Covert Cloak  
+Ability: Good as Gold  
+Level: 50  
+Tera Type: Flying  
+EVs: 84 HP / 252 SpA / 172 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Make It Rain  
+- Shadow Ball  
+- Nasty Plot  
+- Protect  
+[Series 2] Orlando + Vancouver Regionals 2023
+ by EternalSnowman
+Format: Series 2
+Cool thing about this team is that I brought all the mons about evenly and just played each matchup separately. There isn't anything super exciting when it comes to this team, but the Hands spread and Arcanine spread both performed quite well. There were also a large number of games where I didn't Tera at all, since the threat of holding defensive Teras was actually more important than Tera'ing in a lot of situations. Since all my mons had defensive Teras, I could try to force weird interactions even into the later turns of the game by holding the Tera for longer.
+Columns Mode / 
+Stat Colours / 
+Light Mode

@@ -1,0 +1,67 @@
+Untitled PokePaste
+Torkoal @ Charcoal  
+Ability: Drought  
+Level: 50  
+Tera Type: Fire  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Quiet Nature  
+IVs: 0 Atk / 0 Spe  
+- Eruption  
+- Flamethrower  
+- Earth Power  
+- Protect  
+Lilligant @ Focus Sash  
+Ability: Chlorophyll  
+Level: 50  
+Tera Type: Ghost  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Sleep Powder  
+- Leaf Storm  
+- After You  
+- Protect  
+Flutter Mane @ Choice Specs  
+Ability: Protosynthesis  
+Level: 50  
+Tera Type: Fairy  
+EVs: 20 HP / 84 Def / 196 SpA / 4 SpD / 204 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Moonblast  
+- Dazzling Gleam  
+- Shadow Ball  
+- Icy Wind  
+Great Tusk @ Choice Scarf  
+Ability: Protosynthesis  
+Level: 50  
+Tera Type: Ground  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Headlong Rush  
+- Earthquake  
+- Close Combat  
+- Rock Slide  
+Dragonite @ Lum Berry  
+Ability: Multiscale  
+Level: 60  
+Tera Type: Flying  
+EVs: 188 HP / 252 Atk / 4 Def / 4 SpD / 60 Spe  
+Adamant Nature  
+- Tera Blast  
+- Ice Spinner  
+- Extreme Speed  
+- Protect  
+Kingambit @ Assault Vest  
+Ability: Defiant  
+Level: 60  
+Tera Type: Fire  
+EVs: 252 HP / 196 Atk / 4 Def / 52 SpD / 4 Spe  
+Adamant Nature  
+- Kowtow Cleave  
+- Sucker Punch  
+- Iron Head  
+- Tera Blast  
+Columns Mode / 
+Stat Colours / 
+Light Mode

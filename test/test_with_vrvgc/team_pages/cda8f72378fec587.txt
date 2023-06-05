@@ -1,0 +1,59 @@
+Arbin Tumaneng's 2023 Orlando Regionals Top Cut Open Team List, 8-2 Swiss Record
+Hard to Love (Flutter Mane) @ Focus Sash  
+Ability: Protosynthesis  
+Level: 50  
+Tera Type: Fairy  
+IVs: 0 Atk  
+- Shadow Ball  
+- Moonblast  
+- Dazzling Gleam  
+- Protect  
+Shut Down (Roaring Moon) @ Booster Energy  
+Ability: Protosynthesis  
+Level: 50  
+Tera Type: Flying  
+- Acrobatics  
+- Throat Chop  
+- Tailwind  
+- Protect  
+Typa Girl (Indeedee-F) @ Safety Goggles  
+Ability: Psychic Surge  
+Level: 50  
+Tera Type: Fairy  
+IVs: 0 Atk  
+- Dazzling Gleam  
+- Follow Me  
+- Imprison  
+- Trick Room  
+Pink Venom (Amoonguss) @ Covert Cloak  
+Ability: Regenerator  
+Level: 50  
+Tera Type: Dark  
+IVs: 0 Atk  
+- Pollen Puff  
+- Spore  
+- Rage Powder  
+- Clear Smog  
+Happy Girl (Armarouge) @ Weakness Policy  
+Ability: Flash Fire  
+Level: 50  
+Tera Type: Grass  
+IVs: 0 Atk  
+- Armor Cannon  
+- Expanding Force  
+- Protect  
+- Trick Room  
+YeahYeahYeah (Iron Hands) @ Sitrus Berry  
+Ability: Quark Drive  
+Level: 50  
+Tera Type: Grass  
+- Protect  
+- Drain Punch  
+- Thunder Punch  
+- Belly Drum  
+Arbin Tumaneng's 2023 Orlando Regionals Top Cut Open Team List, 8-2 Swiss Record
+ by VGCPastes
+Format: gen9vgc2023series2
+Columns Mode / 
+Stat Colours / 
+Light Mode

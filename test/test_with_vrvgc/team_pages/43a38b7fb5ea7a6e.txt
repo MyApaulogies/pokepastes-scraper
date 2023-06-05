@@ -1,0 +1,66 @@
+Untitled PokePaste
+Great Tusk @ Focus Sash  
+Ability: Protosynthesis  
+Level: 50  
+Tera Type: Ground  
+EVs: 20 HP / 228 Atk / 4 Def / 4 SpD / 252 Spe  
+Adamant Nature  
+- Headlong Rush  
+- Earthquake  
+- Close Combat  
+- Protect  
+Talonflame @ Covert Cloak  
+Ability: Gale Wings  
+Level: 50  
+Tera Type: Ghost  
+EVs: 228 HP / 20 Atk / 4 Def / 4 SpD / 252 Spe  
+Jolly Nature  
+- Brave Bird  
+- Will-O-Wisp  
+- Tailwind  
+- Taunt  
+Iron Bundle @ Booster Energy  
+Ability: Quark Drive  
+Level: 50  
+Tera Type: Ghost  
+EVs: 4 HP / 44 Def / 204 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 27 Atk  
+- Freeze-Dry  
+- Hydro Pump  
+- Icy Wind  
+- Protect  
+Tyranitar @ Assault Vest  
+Ability: Sand Stream  
+Level: 50  
+Tera Type: Flying  
+EVs: 196 HP / 124 Atk / 4 Def / 4 SpD / 180 Spe  
+Adamant Nature  
+IVs: 9 SpA  
+- Rock Slide  
+- Crunch  
+- Tera Blast  
+- Low Kick  
+Gothitelle @ Sitrus Berry  
+Ability: Shadow Tag  
+Level: 50  
+Tera Type: Dark  
+EVs: 244 HP / 140 Def / 124 SpD  
+Calm Nature  
+- Fake Out  
+- Psychic  
+- Taunt  
+- Trick Room  
+Sylveon @ Throat Spray  
+Ability: Pixilate  
+Level: 50  
+Tera Type: Fire  
+EVs: 164 HP / 132 Def / 164 SpA / 4 SpD / 44 Spe  
+Modest Nature  
+- Hyper Voice  
+- Yawn  
+- Tera Blast  
+- Protect  
+Columns Mode / 
+Stat Colours / 
+Light Mode
