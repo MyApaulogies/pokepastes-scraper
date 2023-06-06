@@ -22,7 +22,7 @@ async def main(urls_and_outfiles: list[tuple[str,str]], thread_count):
 
     def on_get(outfile: str, raw_html: str):
 
-        print('saving:', pokepaste_id)
+        print('saving:', outfile)
 
         soup = BeautifulSoup(raw_html, 'html.parser')
 
@@ -51,12 +51,13 @@ if __name__ == "__main__":
     this_dir = os.path.dirname(__file__)
 
     out_dir = f'{this_dir}{os.sep}team_pages'
+    team_urls_file = f'{this_dir}{os.sep}team_urls.txt'
 
     if not os.path.exists(out_dir):
         os.mkdir(out_dir)
 
 
-    with open('team_urls.txt') as f:
+    with open(team_urls_file) as f:
         all_urls = f.read().strip().splitlines()
         
     
@@ -74,10 +75,11 @@ if __name__ == "__main__":
 
     task_count = len(new_urls_and_outfiles)
     if task_count == 0:
-        print(f'no urls to download; {out_dir} up to date')
+        print(f'no urls to download - \n{out_dir}\nis up to date according to\n{team_urls_file}')
         exit(0)
     
-    print(f'begin dl of {task_count} urls\n')
+    print(f'{task_count} new urls found in {out_dir}')
+    print(f'begin dl\n')
     start = perf_counter()
     htmls = download_teams(new_urls_and_outfiles)
     finish = perf_counter()
