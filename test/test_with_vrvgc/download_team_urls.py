@@ -79,7 +79,11 @@ if __name__ == "__main__":
     print(f'and meta to {meta_file}')
 
     with open(out_file, 'a+') as o, open(meta_file, 'a+') as m:
-        o.write('\n'.join(pokepastes_urls))
-        m.write('\n'.join(new_tourney_urls))
+        for url in pokepastes_urls:
+            o.write(url)
+            o.write('\n')
+        for url in new_tourney_urls:
+            m.write(url)
+            m.write('\n')
 
 
