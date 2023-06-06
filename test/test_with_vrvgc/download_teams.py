@@ -7,49 +7,32 @@ from bs4 import BeautifulSoup
 from time import perf_counter
 
 
-
-async def my_get(url: str, outfile: str, sem: asyncio.Semaphore, opened_session: aiohttp.ClientSession, success_callback: Callable[[str,str], Any], fail_callback: Callable[[aiohttp.ClientResponse], Any]):
+async def my_get(url: str, sem: asyncio.Semaphore, opened_session: aiohttp.ClientSession):
     async with sem:
         async with opened_session.get(url) as response:
             if response.status == 200:
-                success_callback(outfile, await response.text())
+                return url, await response.text()
             else:
-                fail_callback(response)
+                return url, f'error: {response.status} ({response.url})'
 
 
-async def main(urls_and_outfiles: list[tuple[str,str]], thread_count):
+async def get_async(urls, thread_count=120) -> list[str, str]:
     semaphore = asyncio.Semaphore(thread_count)
 
-    def on_get(outfile: str, raw_html: str):
-
-        print('saving:', outfile)
-
-        soup = BeautifulSoup(raw_html, 'html.parser')
-
-        with open(outfile, 'w', encoding='utf-8') as f:
-            output = '\n'.join(line for line in soup.text.splitlines() if line.strip())
-            f.write(output)
-
-
-    def on_fail(response: aiohttp.ClientResponse):
-        print('fail', response.status)
-
-
     async with aiohttp.ClientSession() as session:
-        await asyncio.gather(
-            *(my_get(url, outfile, semaphore, session, on_get, on_fail) for url,outfile in urls_and_outfiles)
+        return await asyncio.gather(
+            *(my_get(u, semaphore, session) for u in urls)
         )
-    
 
-def download_teams(urls_and_outfiles: list[tuple[str, str]], thread_count=120):
-    return asyncio.run(main(urls_and_outfiles, thread_count))
+
+def pokepaste_id(url): 
+    return url.rstrip('/').split('/')[-1]
 
 
 if __name__ == "__main__":
     print()
 
     this_dir = os.path.dirname(__file__)
-
     out_dir = f'{this_dir}{os.sep}team_pages'
     team_urls_file = f'{this_dir}{os.sep}team_urls.txt'
 
@@ -60,20 +43,15 @@ if __name__ == "__main__":
     with open(team_urls_file) as f:
         all_urls = f.read().strip().splitlines()
         
-    
-    new_urls_and_outfiles = []
+    new_urls = []
     for url in all_urls:
-        pokepaste_id = url.rstrip('/').split('/')[-1]
-        outfile = f'{out_dir}{os.sep}{pokepaste_id}.txt'
+        outfile = f'{out_dir}{os.sep}{pokepaste_id(url)}.html'
 
         if not os.path.exists(outfile):
-            new_urls_and_outfiles.append(
-                (url, outfile)
-            )
-
-
-
-    task_count = len(new_urls_and_outfiles)
+            new_urls.append(url)
+        
+    
+    task_count = len(new_urls)
     if task_count == 0:
         print(f'no urls to download - \n{out_dir}\nis up to date according to\n{team_urls_file}')
         exit(0)
@@ -81,8 +59,17 @@ if __name__ == "__main__":
     print(f'{task_count} new urls found in {out_dir}')
     print(f'begin dl\n')
     start = perf_counter()
-    htmls = download_teams(new_urls_and_outfiles)
-    finish = perf_counter()
-    print('\nelapsed:', finish - start)
 
-    print(f'\nsaved to {out_dir}')
+    results = asyncio.run(get_async(new_urls))
+
+    elapsed = perf_counter() - start
+    print('\nelapsed:', elapsed)
+
+
+    for url, raw_html in results:
+        outfile = f'{out_dir}{os.sep}{pokepaste_id(url)}.html'
+        with open(outfile, 'w', encoding='utf-8') as f:
+            f.write(raw_html)
+        
+
+    print(f'\nall saved to {out_dir}')
