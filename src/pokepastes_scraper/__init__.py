@@ -94,17 +94,21 @@ class PokepastesMon:
         parts = firstline.split(' (')
 
         if len(parts) == 1:
-            res.species = firstline
+            res.species = firstline.strip()
         else:
-            if parts[-1][1] in 'FM':
-                res.gender = parts.pop()[1]
+            if parts[-1] in ('F)', 'M)'):
+                res.gender = parts.pop()[0]
             
-            if len(parts) == 1:
-                res.species = parts[0]
+            if parts[-1].endswith(')'):
+                # [:-1] trims closing parentheses that we haven't trimmed yet
+                res.species = parts.pop()[:-1]
+            
+                # edge case: nickname might have parentheses (this guy https://pokepast.es/c48cc28e46908448)
+                # so we might still have parts to join
+                res.nickname = ' ('.join(parts)
             else:
-                res.nickname = parts[0]
-                # [1:-1] trims closing parentheses that we haven't trimmed yet
-                res.species = parts[1][:-1]
+                res.species = ' ('.join(parts)
+
 
 
         # iterate through everything before moveset:
@@ -248,6 +252,7 @@ def team_from_json(json_string: str | bytes | bytearray):
 
 
 def team_from_url(url: str):
+    '''Downloads `url` with `requests` library, and runs `pokepastes_scraper.team_from_html` on its contents.'''
     page = requests.get(url)
     return team_from_html(page.text)
 
@@ -256,14 +261,20 @@ def team_from_html(text: str):
     soup = BeautifulSoup(text, 'html.parser')
 
     sidebar: Tag = soup.find('aside')
-    sidebar_iter = iter(sidebar.children)
 
-    # get first six elements, and save three meaningful ones
-    _, res.title, _, author_line, _, res.desc = \
-        [i.text.strip() or None for i in it.islice(sidebar_iter, 6)]
+    sidebar_text = ''
+    for tag in sidebar.children:
+        sidebar_text += tag.text
+    
+    sidebar_text = sidebar_text.split('Columns Mode /')[0]
+    sidebar_lines = sidebar_text.strip().split('\n')
 
-    # get stuff right of first 'by' (there must be a better way)
-    res.author = ''.join(author_line.split('by')[1:]).strip()
+    res.title = sidebar_lines.pop(0)
+    if sidebar_lines and sidebar_lines[0].strip().startswith('by '):
+        res.author = sidebar_lines.pop(0).strip().removeprefix('by ')
+    if sidebar_lines:
+        res.desc = sidebar_lines.pop()
+
 
     html_mons = soup.find_all('pre')    
     res.members = [PokepastesMon._from_pre(mon) for mon in html_mons]

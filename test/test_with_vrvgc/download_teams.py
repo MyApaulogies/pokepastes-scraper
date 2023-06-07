@@ -54,6 +54,7 @@ if __name__ == "__main__":
     task_count = len(new_urls)
     if task_count == 0:
         print(f'no urls to download - \n{out_dir}\nis up to date according to\n{team_urls_file}')
+        print('exiting')
         exit(0)
     
     print(f'{task_count} new urls found in {out_dir}')
