@@ -6,4 +6,4 @@ asdf.*
 pokepastes_scraper.egg-info
 dist
 temp_venv
-/test/team_pages
+*.html
